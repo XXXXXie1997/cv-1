@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#heart {
+  display: inline-block;
+  margin: 100px;
+  position: fixed;
+  right: 20%;
+  top: 20%;
+}
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 500px) {
+  #html {
+    height: 50vh;
+    overflow: auto;
+  }
+  #heart {
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+}
+
+#html {
+  margin: 30px;
+}
+
+a {
+  text-decoration: none;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+}
