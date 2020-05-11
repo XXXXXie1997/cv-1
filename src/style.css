@@ -2,31 +2,47 @@
   margin: 0;
   padding: 0;
 }
+#div1 {
+  position: fixed;
+  left: 66%;
+  transform: translateX(-50%);
+  top: 100px;
+}
+
+#div1::before {
+  content: "";
+  display: block;
+  position: absolute;
+}
+
+#div1::after {
+  content: "";
+  display: block;
+  position: absolute;
+}
+
 #heart {
   display: inline-block;
-  margin: 100px;
   position: fixed;
-  right: 20%;
-  top: 20%;
+  left: 64%;
+  top: 50%;
 }
+
 * {
   box-sizing: border-box;
 }
 
-@media (max-width: 500px) {
-  #html {
+@media (max-width: 700px) {
+  #reader {
+    width: 90vw;
     height: 50vh;
-    overflow: auto;
   }
+
   #heart {
     position: relative;
     top: 0;
     right: 0;
   }
-}
-
-#html {
-  margin: 30px;
 }
 
 a {
