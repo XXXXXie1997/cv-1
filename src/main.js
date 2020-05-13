@@ -170,7 +170,7 @@ a{
   animation: sun 5s infinite linear;
 }
 
-/*这个按钮边缘好像太突兀了，再来加一点点细节
+/*这个边缘好像太突兀了，再来加一点点细节
 **/
 
 a::before {
