@@ -1,0 +1,2 @@
+*{margin:0;padding:0}#div1{position:fixed;left:66%;transform:translateX(-50%);top:100px}#div1:after,#div1:before{content:"";display:block;position:absolute}#heart{display:inline-block;position:fixed;left:64%;top:50%}*{box-sizing:border-box}@media (max-width:700px){#reader{width:90vw;height:50vh}}a{text-decoration:none;position:fixed;right:0;bottom:0;transform:translate(-50%,-50%);font-size:24px}
+/*# sourceMappingURL=style.b4fedeaa.css.map */

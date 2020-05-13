@@ -37,12 +37,6 @@
     width: 90vw;
     height: 50vh;
   }
-
-  #heart {
-    position: relative;
-    top: 0;
-    right: 0;
-  }
 }
 
 a {
